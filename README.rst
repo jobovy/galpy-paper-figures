@@ -75,10 +75,10 @@ Similarly, figures 17 and 18 are produced by the following
 
 which prints the actions and the deviations in the actions,
 frequencies, and angles. The calculation with
-actionAngleIsochroneApprox takes a *very* long time (~XXX 12:43
-min.). You can create a version with coarser time sampling by editing
-the line that says ``tts= ts[::1]`` to skip more values in ``ts``
-(e.g., ``tts= ts[::20]``, which only takes about half an hour).
+actionAngleIsochroneApprox takes a *very* long time (~10 hours). You
+can create a version with coarser time sampling by editing the line
+that says ``tts= ts[::1]`` to skip more values in ``ts`` (e.g., ``tts=
+ts[::20]``, which only takes about half an hour).
 
 Figure 19, which displays the focal length to use when using the
 Staeckel approximation of the actions for MWPotential2014, can be
