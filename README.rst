@@ -125,3 +125,6 @@ This also takes a while to run, progress in going through the various
 DFs is printed by the code. This creates to files containing pickles
 of the asymmetric drift for all models and the Oort constants. See the
 code for more information.
+
+The remaining figures require so much computation time to run that it
+is not particularly interesting to exactly reproduce them. 
