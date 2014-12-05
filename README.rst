@@ -77,3 +77,17 @@ which prints the actions and the deviations in the actions,
 frequencies, and angles. The calculation with
 actionAngleIsochroneApprox also takes a somewhat long time (~XXX 12:43
 min.).
+
+Figure 19, which displays the focal length to use when using the
+Staeckel approximation of the actions for MWPotential2014, can be
+reproduced by
+
+.. code-block:: none
+   python figure19.py figure19.sav figure19.png
+
+The savefile contains a pickle of the 2D array of focal lengths that
+is displayed. See the ``figure19.py`` code for how to read this and
+what the grid on which it is calculated is. The code prints the radius
+of a circular orbit for each L grid point. This code also takes a long
+time at about XXX min. (12:49).
+
