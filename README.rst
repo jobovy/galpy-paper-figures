@@ -51,3 +51,11 @@ running
 
 The code spits out the time the integration takes for each integrator
 and the mean dE/E.
+
+Figure 14 can be reproduced by
+
+.. code-block:: none
+   python figure14.py figure14.png
+
+which again prints the time the integration takes for each integrator
+and the mean of the Jacobian minus one.
