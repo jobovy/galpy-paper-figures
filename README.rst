@@ -49,4 +49,5 @@ running
 .. code-block:: none
    python figure13.py figure13.png
 
-The code spits out the time the integration takes for each integrator.
+The code spits out the time the integration takes for each integrator
+and the mean dE/E.
