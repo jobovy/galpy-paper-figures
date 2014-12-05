@@ -91,3 +91,16 @@ what the grid on which it is calculated is. The code prints the radius
 of a circular orbit for each L grid point. This code also takes a long
 time at about XXX min. (12:49).
 
+The two panels of figure 20 can be obtained as
+
+.. code-block:: none
+   python figure20.py figure20a.ps figure20b.ps
+
+Again, my version of matplotlib has some weird issues with plotting
+the black points in the top panel for PNG output, which is why this
+command is written to produce PS figures.
+
+The two panels of figure 21 can be created using
+
+.. code-block:: none
+   python figure21.py figure21a.png figure21b.png
