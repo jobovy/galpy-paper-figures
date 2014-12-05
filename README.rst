@@ -67,3 +67,13 @@ We can generate figures 15 and 16 using
 
 which prints the mean deviation in the radial and vertical
 frequencies, and in the corresponding angles.
+
+Similarly, figures 17 and 18 are produced by the following
+
+.. code-block:: none
+   python figure17+18.py figure17.png figure18.png
+
+which prints the actions and the deviations in the actions,
+frequencies, and angles. The calculation with
+actionAngleIsochroneApprox also takes a somewhat long time (~XXX 12:43
+min.).
