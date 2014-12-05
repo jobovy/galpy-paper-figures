@@ -121,10 +121,12 @@ Figure 24 is created by running
 .. code-block:: none
    python figure24.py figure24.png
 
-This also takes a while to run, progress in going through the various
-DFs is printed by the code. This creates to files containing pickles
-of the asymmetric drift for all models and the Oort constants. See the
-code for more information.
+This can also take a very long time to run, especially if the
+necessary DF corrections for the Dehnen and Shu DFs have not been
+calculated before; progress in going through the various DFs is
+printed. This code creates two files containing pickles of the
+asymmetric drift for all models and the Oort constants. See the code
+for more information.
 
 The remaining figures require so much computation time to run that it
 is not particularly interesting to exactly reproduce them. 
