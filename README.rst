@@ -43,4 +43,10 @@ The two panels of figure 10 and figure 12 are produced by calling
 
 (my current version of matplotlib has a weird behavior in that it does not plot anything if I use figure12.png).
 
+Figure 13 takes a while to compute (~20 min.) and is produced by
+running
 
+.. code-block:: none
+   python figure13.py figure13.png
+
+The code spits out the time the integration takes for each integrator.
