@@ -18,7 +18,7 @@ PURPOSE
 
 This repository contains code to produce many of the figures in the
 paper describing the `galpy <https://github.com/jobovy/galpy>`__ code
-(figures up to and including 21, excluding code examples).
+(figures up to and including 22, excluding code examples).
 
 Figure 6 can be produced by calling (change the extension of the figure
 filename to save as a different format)
@@ -75,8 +75,10 @@ Similarly, figures 17 and 18 are produced by the following
 
 which prints the actions and the deviations in the actions,
 frequencies, and angles. The calculation with
-actionAngleIsochroneApprox also takes a somewhat long time (~XXX 12:43
-min.).
+actionAngleIsochroneApprox takes a *very* long time (~XXX 12:43
+min.). You can create a version with coarser time sampling by editing
+the line that says ``tts= ts[::1]`` to skip more values in ``ts``
+(e.g., ``tts= ts[::10]``).
 
 Figure 19, which displays the focal length to use when using the
 Staeckel approximation of the actions for MWPotential2014, can be
@@ -104,3 +106,12 @@ The two panels of figure 21 can be created using
 
 .. code-block:: none
    python figure21.py figure21a.png figure21b.png
+
+Figure 22 can in principle be produced by doing
+
+.. code-block:: none
+   python figure22.py figure22.png
+
+but this will take a very long time, as all of the corrections
+corresponding to different iterations have to be computed (it does not
+take *forever*...).
