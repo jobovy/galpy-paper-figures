@@ -36,9 +36,11 @@ section 3.5 in the galpy paper, producing MWPotential2014. Play around
 with it and add your own data! The labels on some of the plots may be
 somewhat cut off when using .png, but not when using .ps.
 
-The two panels of figure 10 and figure 11 are produced by calling
+The two panels of figure 10 and figure 12 are produced by calling
 
 .. code-block:: none
-   python figure10+11.py figure10a.png figure10b.png figure11.ps
+   python figure10+12.py figure10a.png figure10b.png figure12.ps
 
-(my current version of matplotlib has a weird behavior in that it does not plot anything if I use figure11.png).
+(my current version of matplotlib has a weird behavior in that it does not plot anything if I use figure12.png).
+
+
