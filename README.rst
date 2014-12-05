@@ -91,7 +91,7 @@ The savefile contains a pickle of the 2D array of focal lengths that
 is displayed. See the ``figure19.py`` code for how to read this and
 what the grid on which it is calculated is. The code prints the radius
 of a circular orbit for each L grid point. This code also takes a long
-time at about XXX min. (12:49).
+time: about 2.5 hours.
 
 The two panels of figure 20 can be obtained as
 
