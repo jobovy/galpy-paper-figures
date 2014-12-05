@@ -18,7 +18,7 @@ PURPOSE
 
 This repository contains code to produce many of the figures in the
 paper describing the `galpy <https://github.com/jobovy/galpy>`__ code
-(figures up to and including 22, excluding code examples).
+(figures up to and including 24, excluding code examples).
 
 Figure 6 can be produced by calling (change the extension of the figure
 filename to save as a different format)
@@ -115,3 +115,13 @@ Figure 22 can in principle be produced by doing
 but this will take a very long time, as all of the corrections
 corresponding to different iterations have to be computed (it does not
 take *forever*...).
+
+Figure 24 is created by running
+
+.. code-block:: none
+   python figure24.py figure24.png
+
+This also takes a while to run, progress in going through the various
+DFs is printed by the code. This creates to files containing pickles
+of the asymmetric drift for all models and the Oort constants. See the
+code for more information.
