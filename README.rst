@@ -59,3 +59,11 @@ Figure 14 can be reproduced by
 
 which again prints the time the integration takes for each integrator
 and the mean of the Jacobian minus one.
+
+We can generate figures 15 and 16 using
+
+.. code-block:: none
+   python figure15+16.py figure15.png figure16.png
+
+which prints the mean deviation in the radial and vertical
+frequencies, and in the corresponding angles.
