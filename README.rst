@@ -1,7 +1,9 @@
 galpy-paper-figures
 ====================
 
-**Figures from the galpy paper** (`**Bovy 2015** <link>`__)
+.. class:: bold
+
+   Figures from the galpy paper (`Bovy 2015 <link>`__)
 
 AUTHOR
 -------
