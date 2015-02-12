@@ -55,9 +55,9 @@ def fitMWPotential2014(options,args):
     print "Best-fit parameters:"
     print "Disk contribution to F_R(R_0)", params[0]
     print "Halo contribution to F_R(R_0)", params[1]
-    print "Disk scale length / kpc:", numpy.exp(params[2])*8.
-    print "Disk scale height / pc:", numpy.exp(params[3])*8000.
-    print "Halo scale radius / kpc:", numpy.exp(params[4])*8.
+    print "Disk scale length / kpc:", numpy.exp(params[2])*_REFR0
+    print "Disk scale height / pc:", numpy.exp(params[3])*1000*_REFR0
+    print "Halo scale radius / kpc:", numpy.exp(params[4])*_REFR0
     save_pickles(args[0],params)
     #Make plots comparing the fit to the data
     if options.twodisks:
@@ -167,7 +167,7 @@ def pdf_func(params,*args):
 
 def mass60(pot,options):
     """The mass at 60 kpc in 10^11 msolar"""
-    tR= 60./8.
+    tR= 60./_REFR0
     #For the MN potential, we just assume that all of its mass is enclosed within 60 kpc, even though this isn't technically correct (but it's WRONG)
     if options.twodisks:
         return (pot[0].mass(tR)+pot[3].mass(tR)+pot[1]._amp+pot[2]._amp)\
@@ -235,7 +235,7 @@ def plotKz(pot,plotfilename,surfrs,kzs,kzerrs):
                     marker='o',
                     elinewidth=1.,capsize=3,zorder=1,
                     color='k',linestyle='none')  
-    pyplot.errorbar([8.],[69.],yerr=[6.],marker='d',ms=10.,
+    pyplot.errorbar([_REFR0],[69.],yerr=[6.],marker='d',ms=10.,
                     elinewidth=1.,capsize=3,zorder=10,
                     color='0.4',linestyle='none')
     bovy_plot.bovy_end_print(plotfilename)
