@@ -141,4 +141,6 @@ asymmetric drift for all models and the Oort constants. See the code
 for more information.
 
 The remaining figures require so much computation time to run that it
-is not particularly interesting to exactly reproduce them. 
+is not particularly interesting to exactly reproduce them. See `this
+gist <https://gist.github.com/jobovy/9c573cf954b276f63a31>`__ for code
+that can be used to reproduce Figures 26, 27, 28, 29, and 30.
