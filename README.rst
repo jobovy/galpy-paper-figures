@@ -1,7 +1,7 @@
 galpy-paper-figures
 ====================
 
-**Figures from the galpy paper** (`Bovy 2015 <http://sns.ias.edu/~bovy/galpy-paper.html>`__)
+**Figures from the galpy paper** (`Bovy 2015 <http://adsabs.harvard.edu/abs/2015ApJS..216...29B>`__)
 
 AUTHOR
 -------
